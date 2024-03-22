@@ -1,0 +1,34 @@
+{
+  "name": "javascript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafa-saeed/javascript-playground.git"
+  },
+  "author": "Mostafa Saeed <mostafa.saeed543@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafa-saeed/javascript-playground/issues"
+  },
+  "homepage": "https://github.com/mostafa-saeed/javascript-playground#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tslint": "^6.1.3",
+    "typescript": "^5.4.3"
+  }
+}
