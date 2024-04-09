@@ -72,3 +72,13 @@ export const persistence = (number: number) => {
 
   return counter;
 };
+
+// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/javascript
+export const accum = (s: string) =>
+  s
+    .split('')
+    .map(
+      (character, index) =>
+        character.toUpperCase() + character.toLowerCase().repeat(index),
+    )
+    .join('-');
