@@ -50,3 +50,25 @@ export const deleteNth = (array: number[], n: number) => {
     return newArray;
   }, []);
 };
+
+// https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/javascript
+const multipleNumber = (number: number) =>
+  number
+    .toString()
+    .split('')
+    .reduce((total, digit) => total * Number(digit), 1);
+
+export const persistence = (number: number) => {
+  if (number.toString().length <= 1) {
+    return 0;
+  }
+
+  let updated = multipleNumber(number);
+  let counter = 1;
+  while (updated.toString().length > 1) {
+    updated = multipleNumber(updated);
+    counter++;
+  }
+
+  return counter;
+};
